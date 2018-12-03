@@ -35,3 +35,7 @@
 		font-size: 2em;
 	}
 }
+
+a.termEmail, a.termEmail:hover, a.termEmail:active {
+	color: #ffffff;
+}
