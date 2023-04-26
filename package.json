@@ -10,7 +10,8 @@
     "dev:ssr": "ng run site:serve-ssr",
     "serve:ssr": "node dist/site/server/main.js",
     "build:ssr": "ng build && ng run site:server",
-    "prerender": "ng run site:prerender"
+    "prerender": "ng run site:prerender",
+    "postprerender": "cp CNAME docs/CNAME"
   },
   "private": true,
   "dependencies": {

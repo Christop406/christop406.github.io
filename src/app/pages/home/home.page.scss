@@ -1,0 +1,35 @@
+:host {
+    width: 100%;
+}
+
+.header-text {
+    word-wrap: break-word;
+
+    font-size: 15vw;
+
+    * {
+        transition: opacity 200ms ease;
+    }
+
+    &:hover {
+        .chris-face img {
+            opacity: 0;
+        }
+    }
+
+}
+
+.chris-face {
+    position: absolute;
+    top: 0.33em;
+    left: 0.65em;
+    width: 0.5em;
+    height: 0.5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/keyboard-cat.gif);
+}
+
+.subtitle {
+    padding-bottom: 2vw;
+}

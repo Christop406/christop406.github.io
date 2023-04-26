@@ -4,7 +4,15 @@ module.exports = {
         "./src/**/*.{html,ts}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['"Poppins"', 'sans-serif'],
+                alt: ['"Space Grotesk"', "serif"],
+            },
+            fontSize: {
+                hero: '220px',
+            }
+        },
     },
     plugins: [],
 }

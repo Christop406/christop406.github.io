@@ -1,3 +1,18 @@
-<div class="flex w-full h-full items-center justify-center">
-    <router-outlet></router-outlet>
+<div class="flex flex-col w-full h-full relative">
+    <nav class="p-5 lg:p-7 sticky">
+        <ul class="flex justify-between">
+            <li>
+                <a routerLink="/">Chris Gilardi</a>
+            </li>
+            <span class="flex gap-5 lg:gap-7">
+                <li class="text-lime-500">//</li>
+                <li>About.</li>
+                <li>Work.</li>
+                <li>Hire Me.</li>
+            </span>
+        </ul>
+    </nav>
+    <div class="relative">
+        <router-outlet></router-outlet>
+    </div>
 </div>
