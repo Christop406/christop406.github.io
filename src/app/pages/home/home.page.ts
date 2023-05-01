@@ -10,5 +10,10 @@ import { Component } from '@angular/core';
     ]
 })
 export default class HomePage {
-
+    public handleTop(): void {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    }
 }

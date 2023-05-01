@@ -16,7 +16,10 @@
             opacity: 0;
         }
     }
+}
 
+.connect-text {
+    font-size: 11vw;
 }
 
 .chris-face {
@@ -28,6 +31,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/assets/images/keyboard-cat.gif);
+}
+
+.parrot-o {
+    position: absolute;
+    bottom: 0.15em;
+    left: 0.85em;
+    height: 0.6em;
+    width: 1.3em;
 }
 
 .subtitle {
