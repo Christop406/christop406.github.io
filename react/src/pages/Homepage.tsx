@@ -4,6 +4,8 @@ import { ProcessList, ProcessListProps } from "../components/ProcessList";
 import { PROCESS_LIST_ITEMS } from "./Homepage/process-list-items";
 import { BuiltProductList, Footer, SectionHeader } from "../components";
 import { BUILT_PRODUCT_LIST_ITEMS } from "./Homepage/built-product-list-items";
+import chrisImg from "../../assets/images/chris.jpeg";
+import partyParrotImg from "../../assets/images/party_parrot.gif";
 
 export function Homepage() {
   const scrollToTop = () => {
@@ -24,7 +26,7 @@ export function Homepage() {
               aria-hidden="true"
               className="chris-face rounded-full overflow-hidden"
             >
-              <img src="/assets/images/chris.jpeg" />
+              <img src={chrisImg} />
             </span>
           </div>
           <div className="flex flex-col justify-end subtitle md:pl-1">
@@ -63,7 +65,7 @@ export function Homepage() {
           <span className="shrink-0 connect-text leading-none relative">
             Let's <br />C<span className="mx-[0.4em] invisible">o</span>nnect
             <div className="parrot-o bg-white rounded-full flex justify-center items-center">
-              <img className="h-full" src="/assets/images/party_parrot.gif" />
+              <img className="h-full" src={partyParrotImg} />
             </div>
           </span>
           <span className="text-6xl lg:mb-4">

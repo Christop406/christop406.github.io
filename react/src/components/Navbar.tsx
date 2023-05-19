@@ -14,8 +14,8 @@ export default function Navbar() {
           <li aria-hidden className="text-lime-500">
             //
           </li>
-          {navContext.map((item) => (
-            <li>
+          {navContext.map((item, idx) => (
+            <li key={idx}>
               <Link to={item.path}>{item.name}.</Link>
             </li>
           ))}
