@@ -41,6 +41,8 @@ export function Homepage() {
           className="w-full"
           autoPlay
           loop
+          playsInline
+          muted
           src="https://uploads-ssl.webflow.com/5eba19302c27d10056fc52f8/644f2238afe8ee7544027905_VoterlyCompressed-transcode.mp4"
         ></video>
       </div>
