@@ -6,4 +6,4 @@ The intention of this site/repository is to showcase my abilities and to keep th
 
 ## React
 
-The React version of the portfolio site can be [found here](/react/README.md).
+The React version of the portfolio site can be [found here](/react).
