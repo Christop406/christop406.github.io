@@ -30,7 +30,7 @@ export function ImplSwitcher() {
           This site was built with React.
         </span>
         <span className="text-emerald-200">Need an Angular developer?</span>
-        <a href="/">
+        <a href="/angular">
           <i className="fa-solid fa-right-left text-xs"></i>&nbsp;
           <span className="underline">Switch to Angular</span>
         </a>
