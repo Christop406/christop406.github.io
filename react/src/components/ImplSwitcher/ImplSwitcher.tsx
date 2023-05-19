@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import cx from "classnames";
+import './ImplSwitcher.scss';
 
 export function ImplSwitcher() {
   const [hidden, setHidden] = useState(false);
@@ -29,10 +30,10 @@ export function ImplSwitcher() {
           This site was built with React.
         </span>
         <span className="text-emerald-200">Need an Angular developer?</span>
-        <button className="">
+        <a href="/">
           <i className="fa-solid fa-right-left text-xs"></i>&nbsp;
           <span className="underline">Switch to Angular</span>
-        </button>
+        </a>
       </div>
     </div>
   );
