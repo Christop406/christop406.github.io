@@ -3,7 +3,8 @@
     "scripts": {
         "build:angular": "cd angular && npm run build",
         "build:react": "cd react && npm run build",
-        "build": "npm run build:angular && npm run build:react",
+        "copy:static": "cp -r static/ docs",
+        "build": "npm run copy:static && npm run build:angular && npm run build:react",
         "serve:static": "serve docs"
     },
     "devDependencies": {
