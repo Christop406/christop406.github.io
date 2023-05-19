@@ -1,27 +1,9 @@
-# Site
+# Portfolio Site (Main)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+This repository holds the code for my (Chris Gilardi) portfolio site. There are 2 versions of the site: one written using Angular and TypeScript (this one), and one written using React/TypeScript.
 
-## Development server
+The intention of this site/repository is to showcase my abilities and to keep the two implementations of the site in close parity.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## React
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The React version of the portfolio site can be [found here](/react/README.md).
