@@ -3,8 +3,9 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   //   plugins: [react()],
-  base: 'react',
+  base: '/react',
   build: {
-    outDir: '../docs/react'
+    outDir: '../docs/react',
+    emptyOutDir: true,
   }
 });

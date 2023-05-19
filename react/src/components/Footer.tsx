@@ -12,8 +12,8 @@ export function Footer(props: FooterProps) {
     <div className="border-t">
       <div className="flex justify-between p-5">
         <ul className="flex gap-2">
-          {navContext.map((item) => (
-            <li>
+          {navContext.map((item, idx) => (
+            <li key={idx}>
               <Link to={item.path}>{item.name}</Link>
             </li>
           ))}
