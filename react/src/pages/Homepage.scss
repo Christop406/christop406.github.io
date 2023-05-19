@@ -1,0 +1,42 @@
+.header-text {
+  word-wrap: break-word;
+
+  font-size: 15vw;
+
+  * {
+    transition: opacity 200ms ease;
+  }
+
+  &:hover {
+    .chris-face img {
+      opacity: 0;
+    }
+  }
+}
+
+.chris-face {
+  position: absolute;
+  top: 0.33em;
+  left: 0.65em;
+  width: 0.5em;
+  height: 0.5em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/keyboard-cat.gif);
+}
+
+.parrot-o {
+  position: absolute;
+  bottom: 0.15em;
+  left: 0.85em;
+  height: 0.6em;
+  width: 1.3em;
+}
+
+.subtitle {
+  padding-bottom: 2vw;
+}
+
+.connect-text {
+  font-size: 11vw;
+}

@@ -1,0 +1,22 @@
+<div
+  class="fixed shadow-md bottom-4 right-4 flex gap-4 p-4 bg-rose-700 rounded-md text-white transition-transform"
+  [ngClass]="[hidden ? 'translate-x-[83%]' : '']"
+>
+  <div class="flex flex-col justify-between">
+    <i class="text-5xl fa-brands fa-react"></i>
+    <button (click)="toggleHidden()" class="text-md text-rose-400">
+      <i
+        class="fa-solid"
+        [ngClass]="[hidden ? 'fa-arrow-left' : 'fa-arrow-right']"
+      ></i>
+    </button>
+  </div>
+  <div class="flex flex-col items-start justify-between">
+    <span class="text-rose-200"> This site was built with Angular. </span>
+    <span class="text-rose-200">Need a React developer?</span>
+    <a href="/react">
+      <i class="fa-solid fa-right-left text-xs"></i>&nbsp;
+      <span class="underline">Switch to React</span>
+    </a>
+  </div>
+</div>
